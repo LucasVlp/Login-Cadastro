@@ -1,8 +1,8 @@
 import React from "react";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
-import Cadastro from "../views/Cadastro";
-import Login from "../views/Login";
+import Cadastro from "../views/Cadastro.jsx";
+import Login from "../views/Login.jsx";
 
 export default function AppRoutes(){
     return(
